@@ -1,0 +1,370 @@
+#staging-1{
+   height:500px;
+   width:7554px;
+   overflow:hidden;
+}
+
+.sky{
+   height:100%;
+   width:100%;
+   position:relative;
+   background:#5c94fc;
+}
+
+.land{
+   position:absolute;
+   bottom:0px;
+   left:0px;
+      height: 61px;
+      width:7554px;
+}
+
+.block-land-group{
+   overflow: hidden;
+   height: 61px;
+   position: absolute;
+   bottom: 0px;
+}
+
+.block-land{
+   position:relative;
+   bottom:0px;
+   width:34px;
+   height:34px;
+   background:#c84c0c;
+   border:2px solid #fcbcb0;
+
+}
+
+.block-land-b{
+   top:-2px;
+}
+
+.block-land .dot-brb-1,
+.block-land .dot-brb-2,
+.block-land .dot-brb-3,
+.block-land .dot-brb-4,
+.block-land .tl-dot,
+.block-land .tm-dot,
+.block-land .tr-dot{
+   position:absolute;
+   background:#c84c0c;
+   z-index:10;
+}
+
+.block-land .tl-dot{
+   height:2px;
+   width:2px;
+   top:-2px;
+   left:-2px;
+}
+
+.block-land .tm-dot{
+   height:2px;
+   width:2px;
+   top:-2px;
+   left:17px;
+}
+
+.block-land .tr-dot{
+   height:2px;
+   width:4px;
+   top:-2px;
+   right:-2px;
+}
+
+.block-land .bl-1,
+.block-land .bl-2,
+.block-land .bl-3{
+   position:absolute;
+   background:#c84c0c;
+}
+
+.block-land .bl-1{
+   width:17px;
+   height:19px;
+   border-right:1px solid #000;
+   border-left:2px solid #fcbcb0;
+   border-top:2px solid #fcbcb0;
+   top:-2px;
+   left:-2px;
+}
+.block-land .bl-2{
+   width:13px;
+   height:12px;
+   border-right:2px solid #000;
+   border-bottom:1px solid #000;
+   border-left:1px solid #fcbcb0;
+   top:0px;
+   right:0px;
+}
+
+.block-land .bl-3{
+   width: 13px;
+   height: 19px;
+   border-right: 2px solid #000;
+   border-bottom: 1px solid #c84c0c;
+   border-left: 1px solid #fcbcb0;
+   border-top: 1px solid #fcbcb0;
+   bottom: 0px;
+   right: 0px;
+}
+
+.block-land .dot-blc-1,
+.block-land .dot-blc-2,
+.block-land .dot-blc-3,
+.block-land .dot-blc-4{
+   position:absolute;
+   background:#000;
+}
+
+.block-land .dot-blc-1{
+   left: -2px;
+   top: 22px;
+   width: 3px;
+   height: 1px;
+}
+
+.block-land .dot-blc-2{
+   left: 2px;
+   top: 24px;
+   width: 4px;
+   height: 1px;
+}
+
+.block-land .dot-blc-3{
+   left: 6px;
+   top: 24px;
+   width: 6px;
+   height: 2px;
+}
+
+.block-land .dot-blc-4{
+   left: 14px;
+   top: 20px;
+   height: 3px;
+   width: 2px;
+}
+
+.block-land .dot-brb-1{
+   border-left: 1px solid #fcbcb0;
+   right: 2px;
+   height: 10px;
+   width: 16px;
+   bottom: 0px;
+}
+
+.hill{
+   -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   border: 2px solid #000;
+   position: absolute;
+   background: #00a800;
+   width: 215px;
+   height: 215px;
+   border-radius: 30px;
+}
+
+.hill.hill-1{
+   left: 11px;
+   bottom: -70px;
+}
+
+.hill.hill-2{
+   left: 800px;
+   bottom: -127px;
+}
+
+
+.hill-dot-1,
+.hill-dot-2,
+.hill-dot-3,
+.hill-dot-4,
+.hill-dot-5{
+   position:absolute;
+   background:#000;   
+}
+
+.hill-dot-1{
+   left: 30px;
+   top: 5px;
+   width: 8px;
+   height: 15px;
+   border-radius: 8px;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+}
+
+.hill-dot-2{
+   left: 29px;
+   top: 21px;
+   width: 6px;
+   height: 13px;
+   border-radius: 8px;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+}
+
+.hill-dot-3{
+   left: 30px;
+   top: 80px;
+   width: 8px;
+   height: 15px;
+   border-radius: 8px;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+}
+
+.hill-dot-4{
+   left: 30px;
+   top: 95px;
+   width: 6px;
+   height: 13px;
+   border-radius: 8px;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+}
+
+.hill-dot-5{
+   left: 95px;
+   top: 24px;
+   width: 8px;
+   height: 15px;
+   border-radius: 8px;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+}
+
+.semak-group{
+   left: 560px;
+   bottom: 49px;
+   height: 58px;
+   width: 205px;
+   position: absolute;
+   z-index:0;
+}
+
+
+.semak{
+   background:#80d010;
+   width:80px;
+   height:80px;
+   border-radius:15px;
+   position:absolute;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   border:1px solid #000;
+}
+
+.semak-1{
+   left:0px;
+   z-index:1;
+}
+
+.semak-2{
+   left:60px;
+   z-index:3;
+}
+
+.semak-3{
+   left:120px;
+   z-index:2;
+}
+
+.semak-mask{
+   z-index: 5;
+   bottom: 0px;
+   position: absolute;
+   width: 161px;
+   height: 45px;
+   background: #80d010;
+   left: 14px; 
+}
+
+.semak-var-a1,
+.semak-var-a2,
+.semak-var-a3{
+   border-radius: 6px 0px 0px 0px;
+   left: 45px;
+   top: -7px;
+   background: #80d010;
+   border-top: 1px solid #000;
+   border-left: 1px solid #000;
+   position: absolute;
+   width: 10px;
+   height: 11px;
+   -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+}
+
+.semak-var-b1{
+   -webkit-transform: skewX(7deg);
+   transform: skewX(7deg);
+   -moz-transform: skewX(7deg);
+   border-left: 1px solid #000;
+   position: absolute;
+   left: 0px;
+   width: 19px;
+   height: 24px;
+   border-radius: 7px;
+   border-top: 1px solid #000;
+   background: #80d010;
+   top: -9px;
+}
+
+.semak-var-b3{
+   top: 38px;
+   border-right: 1px solid #000;
+   border-radius: 11px 14px 1px 0px;
+   right: -7px;
+   position: absolute;
+   border-top: 1px solid #000;
+   background: #80d010;
+   width: 12px;
+   height: 16px;
+   -webkit-transform: rotate(29deg) skew(-18deg);
+   transform: rotate(29deg) skew(-18deg);
+   -moz-transform: rotate(29deg) skew(-18deg); 
+}
+
+.semak-var-c3{
+   top: 60px;
+   border-right: 1px solid #000;
+   border-radius: 5px 12px 16px 3px;
+   right: -8px;
+   position: absolute;
+   border-top: 1px solid #000;
+   background: #80d010;
+   width: 15px;
+   height: 22px;
+   -webkit-transform: rotate(20deg) skew(-28deg);
+   transform: rotate(20deg) skew(-28deg);
+   -moz-transform: rotate(20deg) skew(-28deg);
+}
+
+.semak-var-b2{
+   top: 21px;
+   border-right: 1px solid #000;
+   border-radius: 80px 39px 40px 0px;
+   right: -5px;
+   position: absolute;
+   border-top: 1px solid #000;
+   background: #80d010;
+   width: 8px;
+   height: 13px;
+   -webkit-transform: rotate(32deg) skew(1deg);
+   transform: rotate(32deg) skew(1deg);
+   -moz-transform: rotate(32deg) skew(1deg);
+}
+
+
+
+
